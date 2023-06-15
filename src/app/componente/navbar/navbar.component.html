@@ -1,7 +1,8 @@
-<nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+<nav class="navbar bg-primary border-bottom border-bottom-dark" data-bs-theme="dark">
     <div class="container-fluid">
         <img [src]="imagen" width="80" height="80">
         <a class="navbar-brand" href="#">{{titulo}}</a>
+        <button (click)="cambiarTexto()">{{textEvent}}</button>
     </div>
 </nav>
 
